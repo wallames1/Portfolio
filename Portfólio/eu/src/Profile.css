@@ -1,3 +1,12 @@
+
+@font-face {
+    font-family: "Chillen";
+    src: url("../public/fonts/Chillen.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 .banner{
     display: flex;
     justify-content: space-around;
@@ -5,12 +14,22 @@
 }
 
 .title{
-    width: 100px;
+    width: 400px;
+    font-size: 30px;
+    
+}
+.title p{
+    color: gray;
+}
+.title span{
+    color: #2bb7d6;
+    font-family: 'Chillen', sans-serif;
+    
 }
 
 
 .action{
-    width: 50px;
+    width: 150px;
 }
 
 

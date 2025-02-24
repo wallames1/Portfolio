@@ -10,8 +10,8 @@ function Profile() {
           
           <div className="title">
             <h1>Olá, eu sou o </h1>
-            <span>Rhuan Bello :)</span>
-            <p>Desenvolvedor Front-End</p>
+            <span>Wallames Anjos :)</span>
+            <p>Desenvolvedor Web</p>
           </div>
           <div className="actions">
             <a href="arq/Curriculo.pdf" download>Download CV</a>
