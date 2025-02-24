@@ -1,0 +1,24 @@
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px; /* Altura do navbar */
+}
+
+.title{
+    width: 100px;
+}
+
+
+.action{
+    width: 50px;
+}
+
+
+
+
+
+
+.profile img{
+    width: 450px;
+    height: 450px;
+}
