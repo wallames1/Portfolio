@@ -14,8 +14,8 @@ function Profile() {
             <p>Desenvolvedor Web</p>
           </div>
           <div className="actions">
-            <a href="arq/Curriculo.pdf" download>Download CV</a>
-            <a href="mailto:wallames@live.com" target="_blank" rel="noopener noreferrer">Entrar em contato</a>
+            <a className='BtnDownload' href="arq/Curriculo.pdf" download>Download CV</a>
+            <a className='BtnContato' href="mailto:wallames@live.com" target="_blank" rel="noopener noreferrer">Entrar em contato</a>
           </div>
         </div>
 
