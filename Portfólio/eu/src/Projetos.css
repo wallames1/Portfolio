@@ -1,0 +1,30 @@
+.container-proj{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px ;
+    gap: 50px;
+
+}
+
+.div-proj h1{
+    font-size: 3rem;
+}
+
+.proj {
+    object-fit: cover;
+    align-items: center ;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+   
+    
+    
+}
+.proj img{
+    width: 390px;
+    height: 250px;
+}
+
+
