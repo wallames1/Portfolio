@@ -1,8 +1,10 @@
-div.sobre {
-    margin-top: 20px;
+.sobre {
+    margin-top: 200px;
     margin-right: 400px;
     margin-left: 400px;
+    font-size: 1.5rem;
+    margin-bottom: 200px;
 }
-p{
+.sobre p{
     color: gray;
 }

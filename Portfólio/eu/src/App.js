@@ -1,4 +1,3 @@
-import './App.css';
 import Contatos from './Contatos';
 import Habilidades from './Habilidades';
 import Navbar from './Navbar';
