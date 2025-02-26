@@ -27,7 +27,6 @@
     height: 250px;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-    
 }
 
 /* Efeito de hover */
@@ -35,7 +34,6 @@
     transform: scale(1.15); /* Aumenta levemente o tamanho */
     box-shadow: 0px 0px 20px rgba(43, 183, 214, 0.7); /* Brilho azul */
     background-image: linear-gradient(to left, #2bb7d6, rgb(3, 40, 54));
-    background-position: right; /* Move o gradiente suavemente */
     
 }
 
@@ -48,12 +46,10 @@
     background-color: brown;
     border-radius: 10px;
     background-image: linear-gradient(to right, #2bb7d6, rgb(3, 40, 54));
-    background-size: 200% 100%; /* Define um tamanho maior para animar */
-    background-position: left;
-    transition: background-position 0.8s ease-in-out, box-shadow 0.8s ease-in-out;
-    
-    
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
     box-shadow: #2bb7d6 10px 10px 30px;
+    transition: transform 0.80s ease-in-out, box-shadow 0.3s ease-in-out;
     
 }
 
