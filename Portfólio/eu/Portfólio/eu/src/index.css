@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.titulos {
+  font-size: 2rem;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.titulos::after {
+  content: "";
+  display: block;
+  width: 75%;
+  height: 3px; /* Ajuste a espessura da borda */
+  background-color: #2bb7d6; /* Cor da borda */
+  margin-top: -0px; /* Espaçamento entre o título e a borda */  
+  position: absolute;
+  left: 0; /* Garante que a borda começa do lado esquerdo */
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50vh; /* Ajusta para rolar até o centro */
+}
+
