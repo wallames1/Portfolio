@@ -21,7 +21,7 @@ function Profile() {
 
         <div className="profile">
           <a href="https://github.com/wallames1" target="_blank" rel="noopener noreferrer">
-            <img src="img/eu.png" alt="avatar" />
+            <img src="/img/eu.png" alt="avatar" />
           </a>
         </div>
     </div>
