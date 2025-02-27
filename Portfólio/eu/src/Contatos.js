@@ -13,7 +13,7 @@ function Contatos() {
 
         <div id='email' className='div-contatos'>
           <a href="mailto:wallames@live.com" target="_blank" rel="noopener noreferrer">
-          <img src={"./img/icons/email-quadrado.png"} alt="email" 
+          <img src={"img/icons/email-quadrado.png"} alt="email" 
           onMouseEnter={(e) => e.currentTarget.src = "/img/icons/email-redondo.png"}
           onMouseLeave={(e) => e.currentTarget.src = "/img/icons/email-quadrado.png"}
           />
