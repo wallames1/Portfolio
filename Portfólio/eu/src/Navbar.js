@@ -24,6 +24,15 @@ function Navbar() {
     document.body.className = theme; // Define a classe 'light' ou 'dark' no body
   }, [theme]);
 
+  const handleScroll = (event, sectionId) => {
+    event.preventDefault(); // Impede o comportamento padrão do link
+  
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  };
+
   return (
     <div className='navbar'>
       
@@ -40,16 +49,17 @@ function Navbar() {
         <div className={`menu ${isOpen ? "open" : ""}`}>
           <ul>
             <li>
-              <a href="#Sobre" onClick={() => setIsOpen(false)}>Sobre</a>
+              <a href="#Sobre" onClick={(e) => handleScroll(e, "Sobre")}>
+              Sobre</a>
             </li>
             <li>
-              <a href="#Habilidades" onClick={() => setIsOpen(false)}>Habilidades</a>
+              <a href="#Habilidades" onClick={(e) => handleScroll(e, "Habilidades")}>Habilidades</a>
             </li>
             <li>
-              <a href="#Projetos" onClick={() => setIsOpen(false)}>Projetos</a>
+              <a href="#Projetos" onClick={(e) => handleScroll(e, "Projetos")}>Projetos</a>
             </li>
             <li>
-              <a href="#Contato" onClick={() => setIsOpen(false)}>Contato</a>
+              <a href="#Contato" onClick={(e) => handleScroll(e, "Contato")}>Contato</a>
             </li>
           </ul>
         </div>

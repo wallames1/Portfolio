@@ -1,13 +1,14 @@
 
 .div-pai{
-    margin-top: 160px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 .container {
     display: grid;
     align-content: center;
     justify-content: center;
     grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
     gap: 50px;
 
 }

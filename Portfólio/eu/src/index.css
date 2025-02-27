@@ -29,4 +29,8 @@ code {
   position: absolute;
   left: 0; /* Garante que a borda começa do lado esquerdo */
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50vh; /* Ajusta para rolar até o centro */
+}
 

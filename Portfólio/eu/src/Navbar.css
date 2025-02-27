@@ -51,13 +51,14 @@
   position: fixed;
   top: 0; /* Ajuste para iniciar no topo */
   left: -250px; /* Menu inicialmente fora da tela (à esquerda) */
-  background-color: #333;
+  background-color: #052327;
   width: 250px;
   height: 100vh; /* Certifique-se de que o menu tenha 100% da altura da tela */
   padding-top: 50px;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
   z-index: 99;
   transition: left 0.3s ease; /* Adicione uma transição para suavizar a animação */
+  color: #ccc;
 }
 
 .menu.open {
@@ -71,20 +72,25 @@
 }
 
 .menu ul li {
-  padding: 20px;
+  padding: 25px;
   text-align: center;
 }
 
 .menu ul li a {
   color: white;
+  border-radius: 20px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   display: block;
   transition: background-color 0.3s;
 }
 
 .menu ul li a:hover {
-  background-color: #444;
+  background-color: #1e9eda;
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+  
 }
 
 /* Estilo do switch button */

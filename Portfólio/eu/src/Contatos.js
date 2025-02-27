@@ -4,7 +4,7 @@ import './Contatos.css'
 
 function Contatos() {
   return (
-    <div id='contato'>
+    <div id='Contato'>
         <h1 className='titulos'>Contatos</h1>
         
         <div className='container-contato'>
