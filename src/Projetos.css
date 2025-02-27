@@ -1,0 +1,61 @@
+
+.div-proj{
+    margin-top: 100px;
+}
+
+.container-proj{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 280px ;
+    gap: 150px;
+    
+
+}
+
+.div-proj h1{
+    font-size: 3rem;
+}
+.div-proj h3{
+    margin: 0;
+}
+.proj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.proj img {
+    width: 390px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+/* Efeito de hover */
+.ban:hover {
+    transform: scale(1.15); /* Aumenta levemente o tamanho */
+    box-shadow: 0px 0px 20px rgba(43, 183, 214, 0.7); /* Brilho azul */
+    background-image: linear-gradient(to left, #2bb7d6, rgb(3, 40, 54));
+    
+}
+
+.ban:hover img {
+    filter: brightness(1.2); /* Deixa a imagem mais brilhante */
+    
+}
+
+.ban {
+    background-color: brown;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #2bb7d6, rgb(3, 40, 54));
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    box-shadow: #2bb7d6 10px 10px 30px;
+    transition: transform 0.80s ease-in-out, box-shadow 0.3s ease-in-out;
+    
+}
+
