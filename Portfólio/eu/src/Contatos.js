@@ -40,7 +40,7 @@ function Contatos() {
 
         <div id='github' className='div-contatos'>
           <a href="https://github.com/wallames1" target="_blank" rel="noopener noreferrer">
-          <img src="/src/img/icons/github-quadrado.png" alt="github" 
+          <img src="./img/icons/github-quadrado.png" alt="github" 
            onMouseEnter={(e) => e.currentTarget.src = "./img/icons/github-redondo.png"}
            onMouseLeave={(e) => e.currentTarget.src = "./img/icons/github-quadrado.png"}
            />
