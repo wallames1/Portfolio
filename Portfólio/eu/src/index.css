@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.titulos {
+  font-size: 2rem;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.titulos::after {
+  content: "";
+  display: block;
+  width: 75%;
+  height: 3px; /* Ajuste a espessura da borda */
+  background-color: #2bb7d6; /* Cor da borda */
+  margin-top: -0px; /* Espaçamento entre o título e a borda */  
+  position: absolute;
+  left: 0; /* Garante que a borda começa do lado esquerdo */
+}
+

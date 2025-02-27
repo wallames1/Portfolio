@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 99%;
-  background-color: #052327d2;
+  background-color: #052327;
   padding-right: 10px;
   padding-left: 10px;
   display: flex;
@@ -149,8 +149,13 @@ input:focus + .slider {
 /* Tema Claro */
 body.light {
   background-color: #fff;
-  color: #000;
+  color: #000000;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+body.light .titulo {
+  
+  color: #e7dada;
+ 
 }
 
 /* Tema Escuro */

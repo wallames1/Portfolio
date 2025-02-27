@@ -55,7 +55,7 @@ function Navbar() {
         </div>
       </nav>
       
-      <h1>Portfólio</h1>
+      <h1 className='titulo'>Portfólio</h1>
 
       <div className="theme-toggle">
         <label className="switch">

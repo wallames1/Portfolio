@@ -4,7 +4,7 @@ import './Habilidades.modules.css'
 function Habilidades() {
   return (
     <div className='div-pai'>
-      <h1>Habilidades</h1>
+      <h1 className='titulos'>Habilidades</h1>
     <div className='container'>
         
 
