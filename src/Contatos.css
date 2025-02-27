@@ -1,0 +1,15 @@
+.container-contato{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.div-contatos  {
+    transition: opacity 105.3s ease-in-out;
+}
+#Contato{
+    margin-top: 350px;
+}
