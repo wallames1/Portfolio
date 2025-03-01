@@ -6,7 +6,7 @@ import "./App.css";
 
 function Navbar() {
   // O estado do tema: "light" ou "dark"
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   // Função para trocar o tema
   const toggleTheme = (event) => {
