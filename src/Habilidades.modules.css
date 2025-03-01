@@ -1,0 +1,51 @@
+
+.div-pai{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.container {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 50px;
+
+}
+
+.div-pai h1{
+    font-size: 3rem;
+}
+
+.box {
+    object-fit: cover;
+    
+    
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    background-color: black;
+    border-radius: 20px 1px 30px;
+    border: 1px solid #2bb7d6;
+    
+}
+.logo p{
+    color: white;
+   
+    
+    
+}
+.logo:hover{
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: 20px 1px 30px;
+}
+
