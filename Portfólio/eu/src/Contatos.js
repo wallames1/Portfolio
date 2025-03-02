@@ -13,13 +13,13 @@ function Contatos() {
 
         <div id='email' className='div-contatos'>
           <a href="mailto:wallames@live.com" target="_blank" rel="noopener noreferrer">
-          <img src="/img/email-quadrado.png" alt="email"/>
+          <img src={process.env.PUBLIC_URL + '/img/email-quadrado.png'}alt="email"/>
           </a>
         </div>
 
         <div id='linkedin' className='div-contatos'>
           <a href="https://www.linkedin.com/in/wallames/" target="_blank" rel="noopener noreferrer">
-          <img src="/img/linkedin-quadrado.png" alt="linkedin"/>
+          <img src="./img/linkedin-quadrado.png" alt="linkedin"/>
           </a>
         </div>
 
