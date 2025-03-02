@@ -11,3 +11,34 @@
 .sobre h1{
     font-size: 3rem;
 }
+
+
+/* Responsividade para telas pequenas (celulares) */
+@media (max-width: 768px) {
+    .sobre {
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 1.3rem;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .sobre h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Responsividade para telas extra pequenas (celulares muito pequenos) */
+@media (max-width: 480px) {
+    .sobre {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 1.2rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .sobre h1 {
+        font-size: 1.8rem;
+    }
+}

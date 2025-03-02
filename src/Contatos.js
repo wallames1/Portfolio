@@ -13,33 +13,25 @@ function Contatos() {
 
         <div id='email' className='div-contatos'>
           <a href="mailto:wallames@live.com" target="_blank" rel="noopener noreferrer">
-          <img src={"/img/email-quadrado.png"} alt="email" 
-          
-          />
+          <img src="/img/email-quadrado.png" alt="email"/>
           </a>
         </div>
 
         <div id='linkedin' className='div-contatos'>
           <a href="https://www.linkedin.com/in/wallames/" target="_blank" rel="noopener noreferrer">
-          <img src="/img/linkedin-quadrado.png" alt="linkedin" 
-          
-           />
+          <img src="/img/linkedin-quadrado.png" alt="linkedin"/>
           </a>
         </div>
 
         <div id='tell' className='div-contatos'>
           <a href="https://api.whatsapp.com/send?phone=5513996545323" target="_blank" rel="noopener noreferrer">
-          <img src="/img/tell-quadrado.png" alt="tell" 
-           
-           />
+          <img src="/img/tell-quadrado.png" alt="tell"/>
           </a>
         </div>
 
         <div id='github' className='div-contatos'>
           <a href="https://github.com/wallames1" target="_blank" rel="noopener noreferrer">
-          <img src="img/github-quadrado.png" alt="github" 
-           
-           />
+          <img src="/img/github-quadrado.png" alt="github"/>
           </a>
         </div>
         

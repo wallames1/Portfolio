@@ -59,3 +59,42 @@
     
 }
 
+
+
+/* Responsividade para telas pequenas (celulares) */
+@media (max-width: 768px) {
+    .container-proj {
+        grid-template-columns: 1fr; /* Apenas uma coluna */
+        gap: 20px; /* Espaçamento reduzido */
+    }
+
+    .div-proj h1 {
+        font-size: 2rem;
+    }
+
+    .proj img {
+        width: 250px;
+        height: 170px;
+    }
+}
+
+/* Responsividade para telas muito pequenas (celulares pequenos) */
+@media (max-width: 480px) {
+    .container-proj {
+        grid-template-columns: 1fr; /* Apenas uma coluna */
+        gap: 200px; /* Menor espaçamento */
+    }
+
+    .div-proj h1 {
+        font-size: 1.8rem;
+    }
+
+    .proj img {
+        width: 200px;
+        height: 130px;
+    }
+
+    .ban{
+        height: 20vh;
+    }
+}
