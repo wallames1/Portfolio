@@ -189,12 +189,17 @@
     flex-direction: column;
     align-items: center; /* Centraliza os itens */
   }
-
+    .intro{
+    marin: 0px;
+    }
   /* Ajustando os botões para telas menores */
   .BtnDownload, .BtnContato {
     width: 100px;    /* Botões menores */
     height: 40px;    /* Ajusta altura */
     font-size: 12px; /* Ajusta o tamanho da fonte */
+  }
+    .profile{
+    margin-top: 150px;
   }
 
   /* Ajustando a imagem do perfil */
