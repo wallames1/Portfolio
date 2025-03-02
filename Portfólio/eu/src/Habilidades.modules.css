@@ -49,3 +49,81 @@ p{
     border-radius: 20px 1px 30px;
 }
 
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 100px 100px; /* 2 colunas em telas médias */
+        grid-template-rows: 100px 100px 100px; /* 3 linhas */
+        gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 100%; /* 1 coluna em telas pequenas */
+        grid-template-rows: 100px 100px 100px; /* 3 linhas */
+        gap: 20px;
+    }
+}
+
+.div-pai h1 {
+    font-size: 3rem;
+}
+
+/* Responsividade para h1 */
+@media (max-width: 768px) {
+    .div-pai h1 {
+        font-size: 2.5rem; /* Reduz o tamanho da fonte em telas médias */
+    }
+}
+
+.box {
+    object-fit: cover;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    background-color: black;
+    border-radius: 20px 1px 30px;
+    border: 1px solid #2bb7d6;
+}
+
+.logo p {
+    color: white;
+}
+
+.logo:hover {
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: 20px 1px 30px;
+}
+
+/* Responsividade para .logo */
+@media (max-width: 768px) {
+    .logo {
+        width: 80%; /* Diminui a largura da logo em telas médias */
+        margin: 0 auto; /* Centraliza a logo */
+    }
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 90%; /* Diminui mais a largura da logo em telas pequenas */
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+    .container{
+        justify-items: center;
+        justify-content: center;
+    }
+}

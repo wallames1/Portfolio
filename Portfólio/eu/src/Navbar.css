@@ -176,3 +176,48 @@ body.dark {
   padding: 20px;
   transition: all 0.3s ease;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+  /* Escondendo o menu de navegação e mostrando o botão hambúrguer em telas pequenas */
+  .menu {
+    display: none; /* Esconde o menu */
+  }
+
+  .hamburger {
+    display: flex; /* Exibe o botão hambúrguer */
+  }
+  
+  /* Quando o menu estiver aberto, mostrar ele a partir da esquerda */
+  .menu.open {
+    display: block;
+    left: 0; /* Menu desliza para dentro */
+  }
+
+  /* Fazendo o menu se alinhar verticalmente quando aberto */
+  .menu ul {
+    flex-direction: column;
+  }
+
+  .menu ul li a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hamburger .line {
+    height: 4px; /* Torna as linhas mais finas no hambúrguer em telas muito pequenas */
+  }
+
+  .menu ul li a {
+    font-size: 18px; /* Ajusta o tamanho da fonte para telas menores */
+  }
+}
