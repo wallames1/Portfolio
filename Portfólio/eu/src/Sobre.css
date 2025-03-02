@@ -22,6 +22,9 @@
         margin-top: 200px;
         margin-bottom: 200px;
     }
+    .sobre p{
+        width:600px;
+    }
 
     .sobre h1 {
         font-size: 2rem;
