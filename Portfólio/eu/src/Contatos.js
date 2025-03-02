@@ -25,7 +25,7 @@ function Contatos() {
 
         <div id='tell' className='div-contatos'>
           <a href="https://api.whatsapp.com/send?phone=5513996545323" target="_blank" rel="noopener noreferrer">
-          <img src="/img/tell-quadrado.png" alt="tell" />
+          <img src="img/tell-quadrado.png" alt="tell" />
           </a>
         </div>
 
